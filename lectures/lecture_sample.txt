@@ -1,0 +1,20 @@
+# Note: the line that start with # sign will be ignore
+[LECTURE]
+
+#All knowledge for the lecture at here, just in text
+# There are many of this sign in the document
+
+[IMAGE]
+
+#All path to images at here, line by line for image by image
+# There are many of this sign in the document
+
+[Q&A]
+[Q&A]
+# Tutor will delay for questions and answers
+# Fill your suggestion for questions at here
+Now, the main point you should remember in this lecture is The connections of the biological neuron are modeled in artificial neural networks as weights between nodes.
+Any questions at here?
+
+[END]
+# This sign is used to notice the end of  lecture
