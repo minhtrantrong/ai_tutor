@@ -85,6 +85,7 @@ def send():
         
         if not load_kb:
             chat_window.insert(END, "Tutor: " + res + '\n\n')
+            kb_present.SpeakText(res)
             
         else:
             subject = res.split("::")[1]

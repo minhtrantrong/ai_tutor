@@ -14,6 +14,8 @@ neural.jpg
 [LECTURE]
 #All knowledge for the lecture at here, just in text
 Machine learning (ML), a fundamental concept of AI research since the field's inception, is the study of computer algorithms that improve automatically through experience.
+Deep learning (also known as deep structured learning) is part of a broader family of machine learning methods based on artificial neural networks with representation learning. 
+Learning can be supervised, semi-supervised or unsupervised.
 [IMAGE]
 #All names of image file names at here, line by line for image by image
 neural_2.png

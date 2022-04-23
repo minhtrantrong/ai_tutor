@@ -17,6 +17,7 @@ engine = tts.init()
 voices = engine.getProperty('voices')       #getting details of current voice
 #engine.setProperty('voice', voices[0].id)  #changing index, changes voices. 0 for male
 engine.setProperty('voice', voices[1].id)   #changing index, changes voices. 1 for female
+engine.setProperty('rate', 125)
 
 #-------------------------------------------------------------------------------------------------#
 def SpeakText(text): 
@@ -73,7 +74,7 @@ def display_lecture(lecture, chat_window):
     chat_window.insert(tk.END, "TUTOR: " + '\n\n')
     for sentence in lecture:
         chat_window.insert(tk.END, sentence + '\n\n')
-        time.sleep(2)
+        time.sleep(1)
         SpeakText(sentence)
     return
 
@@ -84,7 +85,7 @@ def q_and_a(suggestion, chat_window):
     chat_window.insert(tk.END, "TUTOR: " + '\n\n')
     for sentence in suggestion:
         chat_window.insert(tk.END, sentence + '\n\n')
-        time.sleep(2)
+        time.sleep(1)
         SpeakText(sentence)
     next_suggest = "If there are no questions, enter continue or next to finish"
     chat_window.insert(tk.END, next_suggest + '\n\n')

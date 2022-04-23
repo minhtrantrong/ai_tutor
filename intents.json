@@ -35,7 +35,7 @@
          "context": [""]
         },
         {"tag": "lecture",
-         "patterns": ["I want to learn the neural network", "The neural network please!", "How about neural network?", "neural network" ],
+         "patterns": ["I want to learn the neural network", "The neural network please!", "How about neural network?", "neural network", "deep learning"],
          "responses": ["Loading knowledge :: neural network"],
          "context": ["tutor"]
         },
@@ -43,6 +43,11 @@
          "patterns": ["what is AI?", "I don't understand about artificial intelligence", "I have no idea about AI"],
          "responses": ["Loading knowledge :: AI"],
          "context": ["tutor", "lecture"]
+        },
+        {"tag": "age",
+         "patterns": [ "how old are you?", "what's your age?"],
+         "responses": ["I'm not sure. You know that AI has been invented since 1956", "I have no idea. But Nguyet has just modified me last night"],
+         "context": [""]
         }
    ]
 }
