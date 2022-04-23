@@ -73,7 +73,7 @@ def display_lecture(lecture, chat_window):
     chat_window.insert(tk.END, "TUTOR: " + '\n\n')
     for sentence in lecture:
         chat_window.insert(tk.END, sentence + '\n\n')
-        time.sleep(1)
+        time.sleep(2)
         SpeakText(sentence)
     return
 
@@ -84,10 +84,11 @@ def q_and_a(suggestion, chat_window):
     chat_window.insert(tk.END, "TUTOR: " + '\n\n')
     for sentence in suggestion:
         chat_window.insert(tk.END, sentence + '\n\n')
-        #SpeakText(sentence)
+        time.sleep(2)
+        SpeakText(sentence)
     next_suggest = "If there are no questions, enter continue or next to finish"
     chat_window.insert(tk.END, next_suggest + '\n\n')
-    #SpeakText(sentence)
+    SpeakText(next_suggest)
     return
 
 #-------------------------------------------------------------------------------------------------#
