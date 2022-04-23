@@ -1,0 +1,29 @@
+# Note: the line that start with # sign will be ignore
+[LECTURE]
+#All knowledge for the lecture at here, just in text
+...
+Overview 
+Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. 
+Leading AI textbooks define the field as the study of "intelligent agents": any system that perceives its environment and takes actions that maximize its chance of achieving its goals.[a]
+
+Some popular accounts use the term "artificial intelligence" to describe machines that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem-solving", however, this definition is rejected by major AI researchers.
+[IMAGE]
+#All names of image file names at here, line by line for image by image
+neural.jpg
+
+[LECTURE]
+#All knowledge for the lecture at here, just in text
+Machine learning (ML), a fundamental concept of AI research since the field's inception, is the study of computer algorithms that improve automatically through experience.
+[IMAGE]
+#All names of image file names at here, line by line for image by image
+neural_2.png
+
+
+[Q&A]
+# Tutor will delay for questions and answers
+# Fill your suggestion for questions at here
+
+Any questions at here?
+
+
+[END]
